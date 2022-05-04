@@ -9,13 +9,17 @@
   "scripts": {
     "start": "ts-node-dev --respawn --transpile-only app.ts",
     "test": "jest  --rootDir=./tests",
-    "lint": "eslint '*/**/*.{ts}' --quiet --fix"
+    "lint": "eslint '*/**/*.{ts}' --quiet --fix",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@types/jest": "^27.0.3",
     "@typescript-eslint/eslint-plugin": "^5.22.0",
     "eslint": "^8.14.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "husky": "^7.0.4",
     "jest": "^27.4.5",
+    "lint-staged": "^12.4.1",
     "prettier": "^2.6.2",
     "ts-jest": "^27.1.2",
     "ts-node-dev": "^1.1.8"
