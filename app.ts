@@ -1,5 +1,5 @@
 import { __String } from "typescript";
-import { Player } from "./player";
+import { Player } from "./src/player";
 import {
   HunterRole,
   Role,
@@ -7,8 +7,8 @@ import {
   VillagerRole,
   WerewolfRole,
   WitchRole,
-} from "./roles";
-import { shuffle } from "./utils";
+} from "./src/roles";
+import { shuffle } from "./src/utils";
 
 let players: Player[] = [];
 

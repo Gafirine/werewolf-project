@@ -1,5 +1,5 @@
-import { addNewPlayer, createRoster, Player } from "./player";
-import { HunterRole, RoleName, VillagerRole } from "./roles";
+import { addNewPlayer, createRoster, Player } from "../src/player";
+import { HunterRole, RoleName, VillagerRole } from "../src/roles";
 
 describe("Test Player Creation", () => {
   test("It should create a player", () => {

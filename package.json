@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "ts-node-dev --respawn --transpile-only app.ts",
-    "test": "tsc --module commonjs && jest ./out"
+    "test": "jest  --rootDir=./tests"
   },
   "devDependencies": {
     "@types/jest": "^27.0.3",

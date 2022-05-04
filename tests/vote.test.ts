@@ -1,4 +1,4 @@
-import { getMaxVoted } from "./vote";
+import { getMaxVoted } from "../src/vote";
 
 describe("test voting system ", () => {
   test("should return correct vote value", () => {
